@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Projects - Dr. Jaime Denison</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1>Dr. Jaime Denison</h1>
+                <p class="subtitle">Humanities, Philosophy & Digital Studies</p>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="digital-projects.html" class="nav-link active">Digital Projects</a></li>
+                <li><a href="courses.html" class="nav-link">Courses</a></li>
+                <li><a href="cv.html" class="nav-link">CV</a></li>
+                <li><a href="digital-tools.html" class="nav-link">Digital Tools</a></li>
+                <li><a href="multimedia.html" class="nav-link">Multimedia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Digital Projects</h1>
+                <p class="page-description">
+                    Exploring the intersection of computational methods and humanistic inquiry through 
+                    innovative digital scholarship projects.
+                </p>
+            </div>
+        </section>
+
+        <section class="projects-section">
+            <div class="container">
+                <div class="projects-filter">
+                    <h2>Filter by Category</h2>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">All Projects</button>
+                        <button class="filter-btn" data-filter="text-analysis">Text Analysis</button>
+                        <button class="filter-btn" data-filter="visualization">Data Visualization</button>
+                        <button class="filter-btn" data-filter="digital-editions">Digital Editions</button>
+                        <button class="filter-btn" data-filter="ai-ethics">AI Ethics</button>
+                        <button class="filter-btn" data-filter="pedagogy">Digital Pedagogy</button>
+                    </div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Philosophical Text Mining -->
+                    <article class="project-card" data-category="text-analysis">
+                        <div class="project-header">
+                            <div class="project-status active">Active</div>
+                            <div class="project-type">Text Analysis</div>
+                        </div>
+                        <h3 class="project-title">Philosophical Text Mining: Mapping Conceptual Networks</h3>
+                        <p class="project-description">
+                            A computational analysis of philosophical texts from the Enlightenment period, 
+                            using natural language processing to identify conceptual relationships and 
+                            intellectual networks across major philosophical works.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">NLTK</span>
+                            <span class="tech-tag">NetworkX</span>
+                            <span class="tech-tag">TEI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project</a>
+                            <a href="#" class="project-link">GitHub</a>
+                            <a href="#" class="project-link">Publication</a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Ethics of AI Visualization -->
+                    <article class="project-card" data-category="visualization ai-ethics">
+                        <div class="project-header">
+                            <div class="project-status completed">Completed</div>
+                            <div class="project-type">Visualization • AI Ethics</div>
+                        </div>
+                        <h3 class="project-title">Interactive Ethics of AI Decision Trees</h3>
+                        <p class="project-description">
+                            An interactive web application that visualizes ethical decision-making processes 
+                            in AI systems, allowing users to explore different ethical frameworks and their 
+                            implications for algorithmic decision-making.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">Code</a>
+                            <a href="#" class="project-link">Paper</a>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Digital Kant Edition -->
+                    <article class="project-card" data-category="digital-editions">
+                        <div class="project-header">
+                            <div class="project-status ongoing">Ongoing</div>
+                            <div class="project-type">Digital Edition</div>
+                        </div>
+                        <h3 class="project-title">Digital Critical Edition of Kant's Notebooks</h3>
+                        <p class="project-description">
+                            A comprehensive digital edition of Kant's philosophical notebooks with 
+                            interactive annotations, cross-references, and computational analysis tools 
+                            for scholars and students.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">XML-TEI</span>
+                            <span class="tech-tag">XSLT</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Elasticsearch</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Browse Edition</a>
+                            <a href="#" class="project-link">Documentation</a>
+                            <a href="#" class="project-link">Contribute</a>
+                        </div>
+                    </article>
+
+                    <!-- Project 4: VR Philosophy Classroom -->
+                    <article class="project-card" data-category="pedagogy">
+                        <div class="project-header">
+                            <div class="project-status prototype">Prototype</div>
+                            <div class="project-type">Digital Pedagogy</div>
+                        </div>
+                        <h3 class="project-title">Virtual Reality Philosophy Classroom</h3>
+                        <p class="project-description">
+                            An immersive VR environment where students can experience philosophical 
+                            thought experiments, engage with historical philosophical settings, and 
+                            collaborate on philosophical discussions in virtual spaces.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">Oculus SDK</span>
+                            <span class="tech-tag">Photon</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Demo Video</a>
+                            <a href="#" class="project-link">Development Blog</a>
+                            <a href="#" class="project-link">Collaborate</a>
+                        </div>
+                    </article>
+
+                    <!-- Project 5: Sentiment Analysis of Philosophical Discourse -->
+                    <article class="project-card" data-category="text-analysis">
+                        <div class="project-header">
+                            <div class="project-status active">Active</div>
+                            <div class="project-type">Text Analysis</div>
+                        </div>
+                        <h3 class="project-title">Sentiment Analysis of Philosophical Discourse</h3>
+                        <p class="project-description">
+                            Applying machine learning techniques to analyze the emotional and rhetorical 
+                            patterns in philosophical texts, exploring how sentiment relates to 
+                            philosophical argumentation and persuasion.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">scikit-learn</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">spaCy</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Preliminary Results</a>
+                            <a href="#" class="project-link">Methodology</a>
+                            <a href="#" class="project-link">Data</a>
+                        </div>
+                    </article>
+
+                    <!-- Project 6: Digital Humanities Dashboard -->
+                    <article class="project-card" data-category="visualization pedagogy">
+                        <div class="project-header">
+                            <div class="project-status completed">Completed</div>
+                            <div class="project-type">Visualization • Pedagogy</div>
+                        </div>
+                        <h3 class="project-title">Digital Humanities Research Dashboard</h3>
+                        <p class="project-description">
+                            A comprehensive dashboard for tracking and visualizing digital humanities 
+                            research trends, funding patterns, and collaborative networks within the field.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Dashboard</a>
+                            <a href="#" class="project-link">API Docs</a>
+                            <a href="#" class="project-link">Research Paper</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="projects-cta">
+                    <h2>Collaborate on Digital Scholarship</h2>
+                    <p>
+                        Interested in collaborating on digital humanities projects or discussing 
+                        computational approaches to philosophical research? I'm always open to 
+                        new partnerships and innovative research opportunities.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#" class="btn btn-primary">Get in Touch</a>
+                        <a href="digital-tools.html" class="btn btn-secondary">Explore Tools</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: [your.email@university.edu]</p>
+                    <p>Office: [Building, Room Number]</p>
+                    <p>Phone: [Your Phone Number]</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">ORCID</a>
+                        <a href="#" class="social-link">Academia.edu</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Navigation</h3>
+                    <nav class="footer-nav">
+                        <a href="digital-projects.html">Digital Projects</a>
+                        <a href="courses.html">Courses</a>
+                        <a href="cv.html">CV</a>
+                        <a href="digital-tools.html">Digital Tools</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dr. [Your Name]. All rights reserved.</p>
+                <p class="stardate">Stardate: <span id="stardate"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/projects.js"></script>
+</body>
+</html>
